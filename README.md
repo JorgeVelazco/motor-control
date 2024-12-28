@@ -5,12 +5,12 @@ try:
     while True:
         
         Giro_Favor_Reloj_MotorB()
-        pwm_b.ChangeDutyCycle(100)  # Velocidad máxima
+        pwm_b.ChangeDutyCycle(100)  
         print("Motor B: CW (sentido horario)")
         time.sleep(2)  # Espera 2 segundos
 
         Giro_Contra_Reloj_MotorB()
-        pwm_b.ChangeDutyCycle(100)  # Velocidad máxima
+        pwm_b.ChangeDutyCycle(100) 
         print("Motor B: CCW (sentido antihorario)")
         time.sleep(2)  # Espera 2 segundos
 
