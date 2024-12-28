@@ -10,7 +10,7 @@ try:
         pwm_b.ChangeDutyCycle(100) 
         print("Motor B: CCW (sentido antihorario)")
         time.sleep(2)  
-
+ 
 except KeyboardInterrupt:
     pwm_a.stop()
     pwm_b.stop()
